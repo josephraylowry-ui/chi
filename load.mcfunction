@@ -1,41 +1,20 @@
-##Trader Team settings
-team add wandering_trader "Wandering Trader"
-team modify wandering_trader color blue
-
 ##default technical scoreboard
-scoreboard objectives add mob_manager.technical dummy
+scoreboard objectives add wawo.technical dummy
 
 ##additional scoreboards
-scoreboard objectives remove mob_manager.rarity_mobs.common.timer
-scoreboard objectives remove mob_manager.rarity_mobs.rare.timer
-scoreboard objectives remove mob_manager.rarity_mobs.legendary.timer
-scoreboard objectives remove mob_manager.rarity_mobs.mythic.timer
-scoreboard objectives add mob_manager.rarity_mobs.common.timer dummy
-scoreboard objectives add mob_manager.rarity_mobs.rare.timer dummy
-scoreboard objectives add mob_manager.rarity_mobs.legendary.timer dummy
-scoreboard objectives add mob_manager.rarity_mobs.mythic.timer dummy
-scoreboard objectives add mob_manager.playerhead.id dummy
-scoreboard objectives add mob_manager.playerhead.update minecraft.custom:minecraft.leave_game
-scoreboard objectives add mob_manager.used.bell minecraft.custom:minecraft.bell_ring
-scoreboard objectives add mob_manager.follow.px dummy
-scoreboard objectives add mob_manager.follow.py dummy
-scoreboard objectives add mob_manager.follow.pz dummy
-scoreboard objectives add mob_manager.follow.dx dummy
-scoreboard objectives add mob_manager.follow.dy dummy
-scoreboard objectives add mob_manager.follow.dz dummy
-scoreboard objectives add mob_manager.follow.ex dummy
-scoreboard objectives add mob_manager.follow.ey dummy
-scoreboard objectives add mob_manager.follow.ez dummy
-scoreboard objectives add mob_manager.follow.dx2 dummy
-scoreboard objectives add mob_manager.follow.dy2 dummy
-scoreboard objectives add mob_manager.follow.dz2 dummy
-scoreboard objectives add mob_manager.follow.len2 dummy
-scoreboard objectives add mob_manager.follow.motionX dummy
-scoreboard objectives add mob_manager.follow.motionZ dummy
+scoreboard objectives add wawo.waypoint_hub.menu.teleport trigger {"bold":false,"color":"dark_purple","italic":false,"text":"Waypoint Hub: Teleport"}
+scoreboard objectives add wawo.waypoint_hub.id dummy
+scoreboard objectives add wawo.waypoint_hub.head dummy
+scoreboard objectives add wawo.waypoint_hub.player.limit dummy
+scoreboard objectives add wawo.portal_horn.teleport.send trigger {"bold":false,"color":"dark_purple","italic":false,"text":"Portal Horn: Teleport Request Send"}
+scoreboard objectives add wawo.portal_horn.teleport.accept trigger {"bold":false,"color":"dark_purple","italic":false,"text":"Portal Horn: Teleport Request Accepted"}
+scoreboard objectives add wawo.portal_horn.player.id dummy
 
-##apply default values on first load
-execute unless data storage eden:settings mob_manager.misc run function mob_manager:default_values
-data modify storage eden:database names.village set from storage eden:database village
+##scoreboard dummy entries
+scoreboard players set $2 wawo.technical 2
+
+##add initial settings
+execute unless data storage eden:settings warping_wonders run function wawo:default_values
 
 ##set data pack version
-data modify storage eden:datapack nice_mob_manager.version set value "2.7"
+data modify storage eden:datapack warping_wonders.version set value "3.4"

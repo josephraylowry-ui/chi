@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:clock run function wawo:clock/modify/weapon/exec {slot:"mainhand"}
+execute if items entity @s weapon.offhand minecraft:clock run function wawo:clock/modify/weapon/exec {slot:"offhand"}
