@@ -1,0 +1,2 @@
+schedule function mob_manager:init 10t
+execute as @e[type=!#mob_manager:invalid_for_settings,tag=!mob_manager.settings.applied,tag=!mob_manager.settings.exclude,limit=50] run function mob_manager:get_type
