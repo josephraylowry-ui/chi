@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [],
+        "item": {
+          "items": "minecraft:compass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "wawo:compass/teleport/init"
+  }
+}
