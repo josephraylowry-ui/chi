@@ -1,0 +1,30 @@
+{
+    "values": [
+      "minecraft:ghast",
+      "minecraft:zombie",
+      "minecraft:drowned",
+      "minecraft:husk",
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:bogged",
+      "minecraft:breeze",
+      "minecraft:blaze",
+      "minecraft:hoglin",
+      "minecraft:zoglin",
+      "minecraft:piglin",
+      "minecraft:piglin_brute",
+      "minecraft:zombified_piglin",
+      "minecraft:wither_skeleton",
+      "minecraft:pillager",
+      "minecraft:evoker",
+      "minecraft:vindicator",
+      "minecraft:illusioner",
+      "minecraft:ravager",
+      "minecraft:creeper",
+      "minecraft:guardian",
+      "minecraft:spider",
+      "minecraft:cave_spider",
+      "minecraft:witch",
+      "minecraft:parched"
+    ]
+  }

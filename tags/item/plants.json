@@ -1,0 +1,31 @@
+{
+  "values": [
+    "#minecraft:small_flowers",
+    "#minecraft:saplings",
+    "minecraft:azalea",
+    "minecraft:flowering_azalea",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:dead_bush",
+    "minecraft:small_dripleaf",
+    "minecraft:big_dripleaf",
+    "minecraft:spore_blossom",
+    "minecraft:pink_petals",
+    "minecraft:sunflower",
+    "minecraft:lilac",
+    "minecraft:rose_bush",
+    "minecraft:peony",
+    "minecraft:pitcher_plant",
+    "minecraft:tall_grass",
+    "minecraft:short_grass",
+    "minecraft:leaf_litter",
+    "minecraft:wildflowers",
+    "minecraft:firefly_bush",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass",
+    "minecraft:cactus_flower",
+    "minecraft:bush"
+  ]
+}

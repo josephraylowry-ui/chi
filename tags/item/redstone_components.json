@@ -1,0 +1,32 @@
+{
+	"values": [
+		"minecraft:redstone",
+		"minecraft:piston",
+		"minecraft:sticky_piston",
+		"minecraft:target",
+		"minecraft:redstone_lamp",
+		"minecraft:dropper",
+		"minecraft:dispenser",
+		"minecraft:redstone_block",
+		"minecraft:redstone_torch",
+		"minecraft:comparator",
+		"minecraft:repeater",
+		"minecraft:composter",
+		"minecraft:note_block",
+		"minecraft:hopper",
+		"minecraft:slime_block",
+		"minecraft:honey_block",
+		"minecraft:trapped_chest",
+		"minecraft:lever",
+		"minecraft:tripwire_hook",
+		"minecraft:sculk_sensor",
+		"minecraft:calibrated_sculk_sensor",
+		"minecraft:crafter",
+		"minecraft:daylight_detector",
+		"minecraft:stone_button",
+		"minecraft:oak_button",
+		"minecraft:stone_pressure_plate",
+		"minecraft:oak_pressure_plate",
+		"minecraft:copper_bulb"
+	]
+}

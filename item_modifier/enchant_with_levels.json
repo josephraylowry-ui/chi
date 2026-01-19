@@ -1,0 +1,9 @@
+{
+  "function": "minecraft:enchant_with_levels",
+  "levels": {
+    "type": "minecraft:uniform",
+    "min": 5,
+    "max": 30
+  },
+  "options": "#minecraft:on_mob_spawn_equipment"
+}

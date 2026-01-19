@@ -1,0 +1,17 @@
+{
+    "values": [
+      "minecraft:diamond",
+      "minecraft:emerald",
+      "minecraft:raw_gold",
+      "minecraft:gold_ingot",
+      "minecraft:lapis_lazuli",
+      "minecraft:large_amethyst_bud",
+      "minecraft:medium_amethyst_bud",
+      "minecraft:small_amethyst_bud",
+      "minecraft:amethyst_cluster",
+      "minecraft:experience_bottle",
+      "minecraft:echo_shard",
+      "minecraft:ender_eye",
+      "minecraft:shulker_shell"
+    ]
+  }
