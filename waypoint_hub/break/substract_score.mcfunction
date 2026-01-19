@@ -1,0 +1,1 @@
+$scoreboard players remove $(name) wawo.waypoint_hub.player.limit 1
