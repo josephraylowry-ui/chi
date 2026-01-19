@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:spruce_planks",
+    "C": "minecraft:iron_sword",
+    "S": "minecraft:vex_armor_trim_smithing_template"
+  },
+  "pattern": ["#S#", "#C#", "###"],
+  "result": {
+    "count": 2,
+    "id": "minecraft:vex_armor_trim_smithing_template"
+  }
+}

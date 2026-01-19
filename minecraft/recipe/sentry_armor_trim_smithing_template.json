@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:emerald",
+    "C": "minecraft:crossbow",
+    "S": "minecraft:sentry_armor_trim_smithing_template"
+  },
+  "pattern": ["#S#", "#C#", "###"],
+  "result": {
+    "count": 2,
+    "id": "minecraft:sentry_armor_trim_smithing_template"
+  }
+}

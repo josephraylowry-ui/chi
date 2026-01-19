@@ -1,5 +1,3 @@
 {
-	"values": [
-		"m3oresounds:_tick"
-	]
+  "values": ["trim_effects:tick"]
 }

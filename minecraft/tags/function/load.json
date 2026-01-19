@@ -1,17 +1,3 @@
 {
-    "values": [
-        "mob_manager:load",
-        "mob_manager:init",
-        "mob_manager:jeb_sheep/change_color/run",
-        "mob_manager:baby_mount/scheduled",
-        "mob_manager:rarity_mobs/init",
-        "mob_manager:rarity_mobs/particles/init",
-        "mob_manager:village/init",
-        "mob_manager:database/playerheads/update/init",
-        "mob_manager:locator_bar/init",
-        "mob_manager:check_gamerules",
-        "mob_manager:villager/follow/init",
-        "mob_manager:spectator_waypoint_receive",
-        "mob_manager:misc_modifications"
-    ]
+  "values": ["trim_effects:load"]
 }
