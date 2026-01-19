@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:diamond_block"
+    },
+    "B": {
+      "item": "minecraft:echo_shard"
+    },
+    "C": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result": {
+    "id": "minecraft:nether_star"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
+    "ingredients": [
+      {
+        "item": "minecraft:prismarine"
+      }
+    ],
+    "result": {
+      "id": "minecraft:prismarine_shard",
+      "count": 4
+    }
+  }
+  
