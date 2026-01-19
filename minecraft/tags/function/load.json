@@ -1,3 +1,7 @@
 {
-  "values": ["trim_effects:load"]
+  "replace": false,
+  "values": [
+	"vanilla_refresh:load"
+   
+	]
 }

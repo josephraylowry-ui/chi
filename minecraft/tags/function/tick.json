@@ -1,3 +1,8 @@
 {
-  "values": ["trim_effects:tick"]
+  "replace": false,
+  "values": [
+	"vanilla_refresh:tick"
+ 
+
+	]
 }
